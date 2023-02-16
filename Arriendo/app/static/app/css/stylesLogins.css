@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    height: 10%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80%;
+    mix-blend-mode: color-burn;
+    opacity: 0.9;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+form > * {
+    display: block;
+}
+
+
+
+
+
+
+
+/* NUEVO */
+
+.parte1{
+    width: 70%;
+    height: 100vh;
+    background-image: url('../img/Fondo\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border-right: 2px solid black; */
+}
+
+.parte2 {
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(0, 80, 172, 0.80);
+}
+
+#registro {
+    align-self: center;
+    background-color: white;
+    height: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #16B7C1;
+    padding: 5px 10px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+}

@@ -1,0 +1,42 @@
+<!-- Contenido heredado -->
+{% extends 'base.html' %}
+
+<!-- Contiene el titulo de la pagina -->
+{% block title %}Homepage{% endblock %}
+
+<!-- Cargar estilos propios de la pagina -->
+{% load static %}
+
+{% block linkcss %}<link rel="stylesheet" href="{% static 'app/css/stylesHomessss.css' %}">{% endblock %}
+
+<!-- Contenido propio de la pagina -->
+{% block content %}
+    <div class="header">
+        <div class="logo">
+            <img src="{% static 'app/img/Logo 3.png' %}" alt="">
+        </div>
+        <div>
+            <a href="#" class="activo">Buscar</a>
+            <a href="/add">Formulario</a>
+        </div>
+        <a href="/logout">Cerrar Sesion</a>
+    </div>
+
+    <div class="contenido">
+        <div>
+            <div class="search-container">
+                <label for="">INGRESE EL NUMERO DE CEDULA:</label>
+                <input type="search">
+                <input type="image" src="../static/app/img/Buscar.png" alt="" id="searchimg">
+            </div>
+    
+            <div class="found-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, blanditiis minus excepturi ad, architecto molestias, tempore repudiandae id debitis magni quis! Officia nemo, asperiores non ducimus iure aperiam, explicabo aut cumque distinctio recusandae impedit. Cum quod accusamus neque dignissimos autem earum dolor. Soluta voluptas adipisci, voluptate, rem accusantium molestiae quam iusto aut labore, quia nesciunt error laudantium aperiam? Consectetur numquam veritatis quibusdam obcaecati repellat ipsa cupiditate sint? Necessitatibus consequatur ullam maiores molestias exercitationem vero minus eaque ut perferendis omnis? Amet porro odit dicta iure culpa, inventore, rem magni beatae ea aut nam necessitatibus sapiente provident, quis velit quibusdam. Architecto, qui!</p>
+            </div>
+        </div>
+
+        <div class="info-container">
+
+        </div>
+    </div>
+{% endblock %}

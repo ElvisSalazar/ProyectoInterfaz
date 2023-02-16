@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8DD374;
+    height: 100vh;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    height: 12vh;
+    mix-blend-mode: darken;
+}
+
+.header {
+    height: 15vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #27A184;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-image {
+    background-color: aliceblue;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.header a {
+    font-size: large;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+/* Implementaciones de ADD */
+main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.form {
+    padding: 20px;
+    background-color: #60C150;
+    
+    width: 60vw;
+    height: 70vh;
+    box-shadow: 0px 4px 10px #000000;
+    /* filter: blur(5px); */
+}
+
+.legends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.legends legend {
+    width: max-content;
+}
+
+.intern-data {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.ubicate-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.arriend-data {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.arriend-data label {
+    display: block;
+}
+
+.arriend-sep {
+    display: flex;
+    width: max-content;
+}
+
+.arriend-sep:first-child, .arriend-sep:last-child {
+    margin-bottom: 5%;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #4293C0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ult-sep {
+    margin: 0 auto;
+    height: 2px;
+    width: 30%;
+    background-color: #000000;
+}
+
+.ubicar {
+    margin-right: 210px;
+}
+
+.ubicar2 {
+    margin-right: 240px;
+}
+
+.separacion {
+    height: 120px;
+    width: 2px;
+    background-color: #000000;
+    border: 1px solid black;
+}
+
+.data-usr {
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    display: block;
+    margin-right: 5px;
+    width: 80%;
+}
+
+.legends .separa {
+    width: 70%;
+    border-bottom: 2px solid black;
+}
