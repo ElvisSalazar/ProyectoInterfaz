@@ -1,0 +1,11 @@
+Django==4.1.5
+django-ckeditor==6.5.1
+ipykernel==6.20.2
+ipython==8.8.0
+isort==5.11.4
+Pillow==9.4.0
+psycopg2==2.9.5
+psycopg-binary==2.9.5
+pylint==2.15.10
+pylint-celery==0.3
+pylint-django==2.5.3
